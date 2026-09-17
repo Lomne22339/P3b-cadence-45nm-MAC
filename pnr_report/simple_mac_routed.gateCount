@@ -1,0 +1,4 @@
+Gate area 1.0260 um^2
+[0] simple_mac Gates=1766 Cells=443 Area=1812.3 um^2
+[1] add_61_40 Gates=139 Cells=26 Area=143.0 um^2
+[1] mul_58_40 Gates=746 Cells=267 Area=765.4 um^2

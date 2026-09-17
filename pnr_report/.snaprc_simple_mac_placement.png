@@ -1,0 +1,21 @@
+#----------------------------------------------------------
+# ../pnr_report/.snaprc_simple_mac_placement.png : snapshot resource file                          
+# label = simple_mac_placement.png                                      
+#----------------------------------------------------------
+set tmpstr ""
+set tmpbar ""
+lappend tmpstr "dir" $sdir
+lappend tmpstr "label" simple_mac_placement.png
+lappend tmpstr "fplan" $sdir/ss_simple_mac_placement.png.fplan.gif
+lappend tmpstr "amoeba" $sdir/ss_simple_mac_placement.png.amoeba.gif
+lappend tmpstr "place" $sdir/ss_simple_mac_placement.png.place.gif
+lappend tmpstr "trgGlbOverflowPctH" 0
+lappend tmpstr "trgGlbOverflowPctV" 0
+lappend tmpbar "Congestion"
+lappend tmpstr "Congestion" 0
+lappend tmpbar WNS
+lappend tmpstr WNS -0.563
+lappend tmpbar TNS
+lappend tmpstr TNS -1.118
+lappend tmpbar Overlap
+lappend tmpstr Overlap 0

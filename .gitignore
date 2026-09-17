@@ -1,0 +1,32 @@
+# Cadence tool-generated logs (regenerable, large)
+*.log
+*.log[0-9]
+*.logv
+*.logv[0-9]
+pvsUI_ipvs.log
+
+# Cadence tool-generated working dirs
+scripts/checkDesign/
+scripts/fv/
+scripts/timingReports/
+
+# Simvision & other Cadence session dirs
+.simvision/
+.cadence/
+INCA_libs/
+worklib/
+ncsim.key
+irun.key
+
+# Innovus session cruft (not the .cmd session transcripts we want to keep)
+*.rmi
+.rmi.
+.mmi_cache/
+star.cmd*
+
+# Editor / OS junk
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

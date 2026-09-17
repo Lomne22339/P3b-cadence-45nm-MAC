@@ -1,0 +1,1 @@
+/home/noorain22339/P3b_cadence_45nm/scripts/pin_location.io
